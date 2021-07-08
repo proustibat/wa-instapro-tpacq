@@ -12,7 +12,7 @@ console.log('Script started successfully');
 type Popup = {
   close(): void;
 };
-const zoneName = 'music';
+const zoneName = 'allo';
 let helloWorldPopup: Popup;
 const onEnterMusic = () =>
   WA.openPopup(
