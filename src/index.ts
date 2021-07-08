@@ -8,25 +8,22 @@ WA.sendChatMessage('Hello you!', 'Tpacq bot');
 
 
 /**
- *
+ * Opening a popup
  */
-
 type Popup = {
     id: number;
     close(): void;
 }
-
+const zoneName = 'triggerZone'
 let helloWorldPopup: Popup;
-
-const onEnterMusic = () => {
-    return WA.openPopup("popupRectangle", 'You are listening to "Regia" a music from Amenofis', [{
+const onEnterMusic = () =>
+    WA.openPopup("popupRectangle", 'You are listening to "Regia" a music from Amenofis', [{
         label: "Close",
         className: "primary",
         callback: (popup) => popup.close()
     }]);
-};
-helloWorldPopup = WA.onEnterZone('music', onEnterMusic) as unknown as Popup;
+helloWorldPopup = WA.onEnterZone(zoneName, onEnterMusic) as unknown as Popup;
 const closePopup = helloWorldPopup.close;
 
 // Close the popup when we leave the zone.
-WA.onLeaveZone('music', closePopup);
+WA.onLeaveZone(zoneName, closePopup);
