@@ -7,6 +7,9 @@
     "@workadventure/iframe-api-typings": "^1.2.1",
     "eslint": "^7.24.0",
     "html-webpack-plugin": "^5.3.1",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.0.0",
+    "prettier": "2.3.2",
     "ts-loader": "^8.1.0",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.4",
@@ -21,5 +24,8 @@
     "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json",
     "lint": "node_modules/.bin/eslint src/ . --ext .ts",
     "fix": "node_modules/.bin/eslint --fix src/ . --ext .ts"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
