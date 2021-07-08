@@ -233,31 +233,20 @@
         }, 
         {
          "draworder":"topdown",
-         "id":59,
-         "name":"musicPopup",
+         "id":3,
+         "name":"floorLayer",
          "objects":[
                 {
-                 "height":141.071428571429,
-                 "id":3,
+                 "height":117.857142857143,
+                 "id":4,
                  "name":"musicPopup",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":162.5,
-                 "x":164.285714285714,
-                 "y":721.428571428571
+                 "width":142.857142857143,
+                 "x":157.142857142857,
+                 "y":757.142857142857
                 }],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":3,
-         "name":"floorLayer",
-         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -265,7 +254,7 @@
          "y":0
         }],
  "nextlayerid":60,
- "nextobjectid":4,
+ "nextobjectid":5,
  "orientation":"orthogonal",
  "properties":[
         {
