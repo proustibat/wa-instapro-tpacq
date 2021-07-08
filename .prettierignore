@@ -1,0 +1,7 @@
+coverage
+build
+node_modules
+assets
+wa-intsapro-tpacq.iml
+.idea
+*.lock
