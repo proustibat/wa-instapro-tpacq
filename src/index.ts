@@ -6,10 +6,48 @@ console.log('Script started successfully');
 // WA.openCoWebSite('https://workadventu.re');
 // WA.sendChatMessage('Hello you!', 'Tpacq bot');
 
-WA.onEnterZone('zone', () => {
-  WA.sendChatMessage('Hello!', 'Mr Robot');
-});
+/**
+ * Opening a popup
+ */
+const { openPopup, onEnterZone, onLeaveZone } = WA;
+type Popup = {
+  close: () => void;
+};
+type ButtonClickedCallback = (popup: Popup) => void;
+type ButtonDescriptor = {
+  label: string;
+  className?:
+    | 'normal'
+    | 'primary'
+    | 'success'
+    | 'warning'
+    | 'error'
+    | 'disabled';
+  callback: ButtonClickedCallback;
+};
+const zone = 'music';
+const popupRectangle = 'musicPopup';
 
-WA.onLeaveZone('zone', () => {
-  WA.sendChatMessage('Goodbye!', 'Mr Robot');
-});
+const {
+  targetObject,
+  message,
+  buttons,
+}: {
+  targetObject: string;
+  message: string;
+  buttons: ButtonDescriptor[];
+} = {
+  targetObject: popupRectangle,
+  message: 'You are listening to "Regia" a music from Amenofis',
+  buttons: [
+    {
+      label: 'Close',
+      className: 'primary',
+      callback: popup => popup.close(),
+    },
+  ],
+};
+
+const onEnterMusic = () => openPopup(targetObject, message, buttons);
+const closePopup = (onEnterZone(zone, onEnterMusic) as unknown as Popup).close;
+onLeaveZone(zone, closePopup);

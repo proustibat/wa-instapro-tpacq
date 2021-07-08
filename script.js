@@ -1,2 +1,2 @@
-(()=>{"use strict";console.log("Script started successfully"),WA.onEnterZone("zone",(()=>{WA.sendChatMessage("Hello!","Mr Robot")})),WA.onLeaveZone("zone",(()=>{WA.sendChatMessage("Goodbye!","Mr Robot")}))})();
+(()=>{"use strict";console.log("Script started successfully");const{openPopup:e,onEnterZone:s,onLeaveZone:o}=WA,t="music",{targetObject:c,message:a,buttons:l}={targetObject:"musicPopup",message:'You are listening to "Regia" a music from Amenofis',buttons:[{label:"Close",className:"primary",callback:e=>e.close()}]};o(t,s(t,(()=>e(c,a,l))).close)})();
 //# sourceMappingURL=script.js.map
