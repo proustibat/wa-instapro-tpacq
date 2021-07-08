@@ -4,7 +4,7 @@
 // The "WA" global object is available from anywhere.
 console.log('Script started successfully');
 // WA.openCoWebSite('https://workadventu.re');
-WA.sendChatMessage('Hello you!', 'Tpacq bot');
+// WA.sendChatMessage('Hello you!', 'Tpacq bot');
 
 
 /**
