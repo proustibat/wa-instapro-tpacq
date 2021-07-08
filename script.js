@@ -1,2 +1,2 @@
-(()=>{"use strict";console.log("Script started successfully");const e="allo";let o;o=WA.onEnterZone(e,(()=>WA.openPopup("popupRectangle",'You are listening to "Regia" a music from Amenofis',[{label:"Close",className:"primary",callback:e=>e.close()}])));const l=o.close;WA.onLeaveZone(e,l)})();
+(()=>{"use strict";console.log("Script started successfully"),WA.onEnterZone("zone",(()=>{WA.sendChatMessage("Hello!","Mr Robot")})),WA.onLeaveZone("zone",(()=>{WA.sendChatMessage("Goodbye!","Mr Robot")}))})();
 //# sourceMappingURL=script.js.map

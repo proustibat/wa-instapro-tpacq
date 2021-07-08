@@ -6,27 +6,10 @@ console.log('Script started successfully');
 // WA.openCoWebSite('https://workadventu.re');
 // WA.sendChatMessage('Hello you!', 'Tpacq bot');
 
-/**
- * Opening a popup
- */
-type Popup = {
-  close(): void;
-};
-const zoneName = 'allo';
-let helloWorldPopup: Popup;
-const onEnterMusic = () =>
-  WA.openPopup(
-    'popupRectangle',
-    'You are listening to "Regia" a music from Amenofis',
-    [
-      {
-        label: 'Close',
-        className: 'primary',
-        callback: popup => popup.close(),
-      },
-    ],
-  );
-helloWorldPopup = WA.onEnterZone(zoneName, onEnterMusic) as unknown as Popup;
-const closePopup = helloWorldPopup.close;
+WA.onEnterZone('zone', () => {
+  WA.sendChatMessage('Hello!', 'Mr Robot');
+});
 
-WA.onLeaveZone(zoneName, closePopup);
+WA.onLeaveZone('zone', () => {
+  WA.sendChatMessage('Goodbye!', 'Mr Robot');
+});
