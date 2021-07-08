@@ -1,2 +1,2 @@
-(()=>{"use strict";console.log("Script started successfully")})();
+(()=>{"use strict";let e;console.log("Script started successfully"),WA.sendChatMessage("Hello you!","Tpacq bot"),e=WA.onEnterZone("music",(()=>WA.openPopup("popupRectangle",'You are listening to "Regia" a music from Amenofis',[{label:"Close",className:"primary",callback:e=>e.close()}])));const o=e.close;WA.onLeaveZone("music",o)})();
 //# sourceMappingURL=script.js.map
