@@ -243,9 +243,180 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":142.857142857143,
-                 "x":157.142857142857,
-                 "y":757.142857142857
+                 "width":224.607563631368,
+                 "x":133.900090452146,
+                 "y":704.245526053653
+                }, 
+                {
+                 "height":18.84375,
+                 "id":8,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#7a1724",
+                     "halign":"center",
+                     "text":"Videos",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":84.625,
+                 "x":296.386874320932,
+                 "y":469.037624456746
+                }, 
+                {
+                 "height":18.8438,
+                 "id":9,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#7a1724",
+                     "halign":"center",
+                     "text":"Videos",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":101.671944662995,
+                 "x":292.069876081825,
+                 "y":723.596720508786
+                }, 
+                {
+                 "height":18.8438,
+                 "id":10,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#7a1724",
+                     "halign":"center",
+                     "text":"Videos",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":101.672,
+                 "x":657.267855232101,
+                 "y":658.031548728036
+                }, 
+                {
+                 "height":18.8438,
+                 "id":11,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#7a1724",
+                     "halign":"center",
+                     "text":"Kitchen & games",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":158.058047731445,
+                 "x":1152.94055389457,
+                 "y":404.94998565434
+                }, 
+                {
+                 "height":18.8438,
+                 "id":12,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#737a1724",
+                     "halign":"center",
+                     "text":"Desktop 1",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":188.217979019145,
+                 "x":33.7430954628902,
+                 "y":331.5169932599
+                }, 
+                {
+                 "height":18.8438,
+                 "id":13,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#737a1724",
+                     "halign":"center",
+                     "text":"Desktop 2",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":188.218,
+                 "x":291.41421007081,
+                 "y":328.89438638867
+                }, 
+                {
+                 "height":18.8438,
+                 "id":14,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#737a1724",
+                     "halign":"center",
+                     "text":"Desktop 3",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":188.218,
+                 "x":545.807076580121,
+                 "y":328.89438638867
+                }, 
+                {
+                 "height":18.8438,
+                 "id":15,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#737a1724",
+                     "halign":"center",
+                     "text":"Desktop 4",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":188.218,
+                 "x":800.199943089431,
+                 "y":331.5169932599
+                }, 
+                {
+                 "height":18.8438,
+                 "id":16,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#737a1724",
+                     "halign":"center",
+                     "text":"Desktop 5",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":188.218,
+                 "x":1057.21541646997,
+                 "y":332.828296695515
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -254,7 +425,7 @@
          "y":0
         }],
  "nextlayerid":60,
- "nextobjectid":5,
+ "nextobjectid":17,
  "orientation":"orthogonal",
  "properties":[
         {
