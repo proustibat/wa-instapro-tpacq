@@ -14,7 +14,7 @@ type Popup = {
     id: number;
     close(): void;
 }
-const zoneName = 'triggerZone'
+const zoneName = 'music'
 let helloWorldPopup: Popup;
 const onEnterMusic = () =>
     WA.openPopup("popupRectangle", 'You are listening to "Regia" a music from Amenofis', [{
