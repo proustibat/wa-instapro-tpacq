@@ -5,5 +5,8 @@
   "arrowParens": "avoid",
   "printWidth": 80,
   "bracketSpacing": true,
-  "semi": true
+  "semi": true,
+  "jsxBracketSameLine": true,
+  "proseWrap": "preserve",
+  "endOfLine": "lf"
 }
